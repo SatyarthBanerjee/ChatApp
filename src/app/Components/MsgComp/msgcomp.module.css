@@ -1,0 +1,28 @@
+.msgcomp{
+    display: flex;
+padding: 12px;
+align-items: flex-start;
+gap: 16px;
+align-self: stretch;
+}
+.msgcomp img{
+    border-radius: 12px;
+/* background: url(<path-to-image>) lightgray 50% / cover no-repeat; */
+}
+.nameanddesc{
+    display:flex;
+    flex-direction: column;
+    gap: 3px
+}
+.nameanddesc p{
+    color: rgba(0, 0, 0, 0.40);
+/* font-family: Inter; */
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 18px */
+}
+.tags{
+    display: flex;
+    gap: 5px
+}

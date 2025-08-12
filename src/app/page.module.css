@@ -1,0 +1,11 @@
+.mainbg{
+  height: 100vh;
+  width: 100%;
+  
+  /* border-radius: 16px; */
+background: linear-gradient(100deg, #9181F4 -5.85%, #5038ED 109.55%);
+box-shadow: 0 8px 21px 0 rgba(0, 0, 0, 0.16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

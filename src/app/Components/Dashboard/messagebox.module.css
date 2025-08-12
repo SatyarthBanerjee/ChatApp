@@ -1,0 +1,82 @@
+.messagebox{
+    height: 100vh;
+    width: 25%;
+    /* background-color: aqua; */
+}
+.messagebox__header{
+    display: flex;
+width: 100%;
+padding: 24px;
+justify-content: space-between;
+align-items: center;
+border: #EBEBEB solid 1.5px;
+border-top: none;
+border-left: none;
+}
+.mainhead{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    /* rotate: 90; */
+
+}
+.mainhead h3{
+    font-weight: 600;
+}
+.msgcount{
+    display: flex;
+padding: 2px 8px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+border-radius: 24px;
+background: var(--gray-gray-200, #EDF2F7);
+font-size: 12px;
+}
+.searchbox{
+    display: flex;
+height: 48px;
+padding: 10px 20px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+
+}
+.inpbox{
+    display: flex;
+height: 48px;
+width: 100%;
+padding: 10px 20px;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+border-radius: 12px;
+background: #F3F3F3;
+}
+.inpbox p{
+    color: #000;
+/* font-family: Inter; */
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.4
+}
+.inpbox input{
+    border: none;
+    background-color: transparent;
+    height: 100%;
+}
+.inpbox input:focus{
+    outline: none;
+}
+.inpbox input::placeholder{
+    opacity: 0.4;
+}
+.msglist{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border-right: #EBEBEB solid 1.5px;
+    gap: 10px
+}
